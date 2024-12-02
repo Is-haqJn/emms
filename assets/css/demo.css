@@ -1,0 +1,13 @@
+#data_table {
+    border-collapse: collapse !important;
+}
+
+.custom {
+    min-width: 50px;
+    left: -149px !important;
+    right: 0;
+}
+
+.overflow_x_unset {
+    overflow-x: unset !important;
+}

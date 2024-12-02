@@ -1,0 +1,85 @@
+.login-block{
+   display: inline-block;
+}
+
+.none-display{
+   display: none;
+}
+
+.login-padding{
+   padding-left: 0px;
+}
+
+.purple-color{
+   color: purple;
+}
+
+.yellow-color{
+   color: #f0ad4e;
+}
+
+.green-color{
+   color: green;
+}
+
+.red-color{
+   color: #dd4b39;
+}
+
+.bottom-padding{
+   padding-bottom: 25px;
+}
+
+.logo-style{
+   height: 42px;
+   width: 184px;
+   padding-top: 6px;
+}
+
+.fontsize{
+   font-size: 12px;
+}
+
+.aligntext{
+   text-align: center;
+}
+
+.visibility{
+   visibility:hidden;
+}
+
+.marginbottom{
+   margin-bottom: 3px;
+}
+
+.font100size{
+   font-size: 100px;
+}
+
+.ul-list-type{
+   list-style-type: none;
+}
+
+.family-font{
+   font-family: sans-serif;
+}
+
+.widthbox{
+   width: 50% !important;
+}
+
+.margintop{
+   margin-top:2px;
+}
+
+.zmargin{
+   margin:0;
+}
+
+.leftmargin{
+   margin-left: 5px;
+}
+
+.both-clear{
+   clear: both;
+}

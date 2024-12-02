@@ -36,7 +36,7 @@
 						</div>
 						<div class="form-group col-md-6">
 							<label for="email"> @lang('equicare.email') </label>
-							<input type="email" name="email" class="form-control" value="{{ old('email') }}"/>
+							<input type="text" name="email" class="form-control" value="{{ old('email') }}"/>
 						</div>
 						<div class="form-group col-md-6">
 							<label for="contact_person"> @lang('equicare.contact_person') </label>

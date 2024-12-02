@@ -1,6 +1,6 @@
 @extends('layouts.admin')
 @section('body-title')
-	@lang('equicare.departments')
+	Categories
 @endsection
 @section('title')
 	| @lang('equicare.departments')
@@ -22,7 +22,7 @@
 			<div class="box box-primary">
 					<div class="box-header with-border">
 						<h4 class="box-title">
-							@lang('equicare.create_department')
+							Create Categories
 						</h4>
 					</div>
 					<div class="box-body">

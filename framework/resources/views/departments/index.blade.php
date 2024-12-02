@@ -1,19 +1,19 @@
 @extends('layouts.admin')
 @section('body-title')
-@lang('equicare.departments')
+Categories
 @endsection
 @section('title')
-	| @lang('equicare.departments')
+	| Categories
 @endsection
 @section('breadcrumb')
-	<li class=" active">@lang('equicare.departments')</li>
+	<li class=" active">Categories</li>
 @endsection
 @section('content')
 		<div class="row">
 			<div class="col-md-12">
 				<div class="box box-primary">
 				<div class="box-header with-border">
-					<h4 class="box-title">@lang('equicare.manage_departments')
+					<h4 class="box-title">Manage Categories
 							
 							@if(
                             Auth::user()->hasDirectPermission('Create Departments'))
@@ -26,7 +26,7 @@
 							<thead class="thead-inverse">
 								<tr>
 									<th> # </th>
-									<th> @lang('equicare.department_name') </th>
+									<th>Category </th>
 									<th> @lang('equicare.short_name') </th>
 									<th> @lang('equicare.created_on') </th>
 									@if (\Auth::user()->hasDirectPermission('Edit Departments') || \Auth::user()->hasDirectPermission('Delete Departments'))
@@ -70,7 +70,7 @@
 							<tfoot>
 								<tr>
 									<th> # </th>
-									<th> @lang('equicare.name') </th>
+									<th> Category </th>
 									<th> @lang('equicare.short_name') </th>
 									<th> @lang('equicare.created_on') </th>
 									@if (\Auth::user()->hasDirectPermission('Edit Departments') || \Auth::user()->hasDirectPermission('Delete Departments'))

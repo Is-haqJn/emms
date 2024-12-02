@@ -174,7 +174,7 @@
 @if(auth()->user()->hasDirectPermission('View Departments'))
     <li class="{{ $page=='departments'?'active':'' }}">
         <a href="{{ url('/admin/departments') }}">
-            <i class="fa fa-building"></i> <span>@lang('equicare.departments')</span>
+            <i class="fa fa-building"></i> <span>Categories</span>
         </a>
     </li>
 @endif
@@ -428,10 +428,8 @@
   </div>
   <!-- /.content-wrapper -->
   <footer class="main-footer">
-    <div class="pull-right hidden-xs">
-      <b>Version</b> 2.3.1
-    </div>
-    <strong>@lang('equicare.copyright') &copy; 2019-{{ date('Y') }} <a href="https://hyvikk.com" target="_blank">Hyvikk</a>.</strong> @lang('equicare.all_rights_reserved').
+
+    <strong>@lang('equicare.copyright') &copy; {{ date('Y') }} <a href="localhost" target="_blank">cmems</a>.</strong> @lang('equicare.all_rights_reserved').
   </footer>
 
 

@@ -99,7 +99,7 @@
         <div class="small-box bg-blue">
             <div class="inner">
                 <h3>{{  $count }}</h3>
-                <p>@lang('equicare.departments')</p>
+                <p>Categories</p>
             </div>
             <div class="icon">
                 <i class="fa fa-cubes"></i>
